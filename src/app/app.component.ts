@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  pageValue: string = 'recipes';
+  pageValue: string = 'shopping';
 
   pageVal(value: string) {
     this.pageValue = value;

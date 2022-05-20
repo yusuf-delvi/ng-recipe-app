@@ -18,8 +18,9 @@
           <!-- Step 4: Close the menu when a link is clicked. -->
           <a
             class="nav-link"
-            routerLink="/features"
-            (click)="isMenuCollapsed = true"
+            routerLink="/recipes"
+            (click)="navTo('recipes')"
+            style="cursor: pointer"
           >
             Recipes
           </a>
@@ -27,8 +28,9 @@
         <li class="nav-item">
           <a
             class="nav-link"
-            routerLink="/egg"
-            (click)="isMenuCollapsed = true"
+            routerLink="/shopping"
+            style="cursor: pointer"
+            (click)="navTo('shopping')"
           >
             Shopping List
           </a>

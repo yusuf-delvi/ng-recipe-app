@@ -6,7 +6,6 @@ import { Component, Output, EventEmitter } from '@angular/core';
 })
 export class HeaderComponent {
   public isMenuCollapsed = true;
-  public isManageCollapsed = true;
 
   @Output() navToVal = new EventEmitter<string>();
 

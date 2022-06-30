@@ -19,7 +19,7 @@
           <a
             class="nav-link"
             routerLink="/recipes"
-            (click)="navTo('recipes')"
+            routerLinkActive="active"
             style="cursor: pointer"
           >
             Recipes
@@ -29,17 +29,17 @@
           <a
             class="nav-link"
             routerLink="/shopping"
+            routerLinkActive="active"
             style="cursor: pointer"
-            (click)="navTo('shopping')"
           >
             Shopping List
           </a>
         </li>
         <li class="nav-item dropdown" appDropdown>
-          <a class="nav-link dropdown-toggle" href="#"> Manage </a>
+          <a class="nav-link dropdown-toggle"> Manage </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Save Data</a>
-            <a class="dropdown-item" href="#">Fetch Data</a>
+            <a class="dropdown-item">Save Data</a>
+            <a class="dropdown-item">Fetch Data</a>
           </div>
         </li>
       </ul>

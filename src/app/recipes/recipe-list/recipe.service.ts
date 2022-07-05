@@ -11,12 +11,14 @@ export class RecipeService {
 
   private recipes: Recipe[] = [
     new Recipe(
+      1,
       'A test recipe',
       'This is simply a test',
       'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg',
       [new Ingredient('Meat', 1), new Ingredient('French Fries', 20)]
     ),
     new Recipe(
+      2,
       'A test recipe 1',
       'This is simply a test 1',
       'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg',

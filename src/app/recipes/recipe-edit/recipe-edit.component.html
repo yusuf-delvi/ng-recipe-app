@@ -1,1 +1,5 @@
 <p>recipe-edit works!</p>
+
+<p *ngIf="isEdit; else edifElsePara">Editing page</p>
+
+<ng-template #edifElsePara>New Page</ng-template>
